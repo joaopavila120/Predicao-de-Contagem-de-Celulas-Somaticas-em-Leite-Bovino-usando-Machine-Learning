@@ -85,6 +85,3 @@ This project applies Machine Learning techniques to predict the somatic cell cou
 
 João Paulo de Avila – Ciência da Computação/Computer Science – UPF
 
-## 📄 Licença
-
-[MIT License](LICENSE)
