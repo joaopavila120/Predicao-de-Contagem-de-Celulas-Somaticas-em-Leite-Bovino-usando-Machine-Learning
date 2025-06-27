@@ -39,62 +39,51 @@ Este projeto aplica técnicas de Machine Learning para prever a contagem de cél
 - Matplotlib & Seaborn
 - Google Colab
 
-**Use of Machine Learning Techniques in the Analysis of the Relationship Between Bovine Milk Composition and Somatic Cell Count**
-This project applies Machine Learning techniques to predict the somatic cell count (SCC) in bovine milk samples by analyzing the relationship between lactose, fat, and protein — key indicators of the udder health of dairy cows. Developed as a Computer Science Undergraduate Thesis (TCC) at UPF.
+# 🐄 Use of Machine Learning Techniques in the Analysis of the Relationship Between Bovine Milk Composition and Somatic Cell Count
 
-🎯 Objective
-Build Linear Regression, Random Forest, and XGBoost models to predict SCC based on milk composition data.
+This project applies Machine Learning techniques to predict the somatic cell count (SCC) in bovine milk samples by analyzing the relationship between lactose, fat, and protein — key indicators of the udder health of dairy cows. Developed as an Undergraduate Thesis (TCC) in Computer Science at UPF.
 
-Evaluate model performance using metrics such as R² and MSE.
+## 🎯 Objective
 
-Interpret the models with SHAP, highlighting the most important variables for prediction.
+- Build Linear Regression, Random Forest, and XGBoost models to predict SCC based on milk composition data.
+- Evaluate model performance using metrics such as R² and MSE.
+- Interpret the models with SHAP, highlighting the most important variables for prediction.
 
-📊 Techniques Used
-Machine Learning:
+## 📊 Techniques Used
 
-Simple and Multiple Linear Regression (statsmodels).
+- **Machine Learning**:
+  - Simple and Multiple Linear Regression (statsmodels).
+  - Random Forest Regressor (scikit-learn).
+  - XGBoost Regressor (XGBoost + SHAP).
 
-Random Forest Regressor (scikit-learn).
+- **Statistical Analyses**:
+  - Pearson and Spearman correlation.
+  - Analysis of variable distributions.
 
-XGBoost Regressor (XGBoost + SHAP).
+- **Visualization**:
+  - Matplotlib and Seaborn for boxplots, histograms, and SHAP beeswarm plots.
 
-Statistical Analyses:
+## 🔍 Main Results
 
-Pearson and Spearman correlation.
+- Lactose was the most important predictor of SCC, with a moderate negative correlation (r=-0.37) and the highest importance in the Random Forest and XGBoost models.
+- Non-linear models (Random Forest and XGBoost) achieved R² ≈ 0.175, partially capturing the complexity of the phenomenon.
+- SHAP revealed how variations in lactose directly influence SCC predictions, providing interpretability for practical decision-making.
 
-Analysis of variable distributions.
+## 🛠️ Technologies
 
-Visualization:
+- Python 3.x
+- Pandas
+- NumPy
+- Scikit-learn
+- XGBoost
+- SHAP
+- Matplotlib & Seaborn
+- Google Colab
 
-Matplotlib and Seaborn for boxplots, histograms, and SHAP beeswarm plots.
 
-🔍 Main Results
-Lactose was the most important predictor of SCC, showing a moderate negative correlation (r=-0.37) and the highest importance in the Random Forest and XGBoost models.
+## 👨‍💻 Autor/Author
 
-Non-linear models (Random Forest and XGBoost) achieved R² ≈ 0.175, partially capturing the complexity of the phenomenon.
-
-SHAP revealed how variations in lactose directly influence SCC predictions, providing interpretability for practical decision-making.
-
-🛠️ Technologies
-Python 3.x
-
-Pandas
-
-NumPy
-
-Scikit-learn
-
-XGBoost
-
-SHAP
-
-Matplotlib & Seaborn
-
-Google Colab
-
-## 👨‍💻 Autor
-
-João Paulo de Avila – Ciência da Computação – UPF
+João Paulo de Avila – Ciência da Computação/Computer Science – UPF
 
 ## 📄 Licença
 
