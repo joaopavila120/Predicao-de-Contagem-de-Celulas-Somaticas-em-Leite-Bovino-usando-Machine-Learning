@@ -1,4 +1,4 @@
-# Uso de técnicas de Machine Learning na análise da relação da composição do leite bovinocom a contagem de células somáticas
+# Uso de técnicas de Machine Learning na análise da relação da composição do leite bovino com a contagem de células somáticas
 Este projeto aplica técnicas de Machine Learning para prever a contagem de células somáticas (CCS) em amostras de leite bovino, analisando a relação entre lactose, gordura e proteína — principais indicadores da saúde do úbere das vacas leiteiras. Desenvolvido como Trabalho de Conclusão de Curso (TCC) em Ciência da Computação pela UPF.
 
 
